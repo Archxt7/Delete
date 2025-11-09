@@ -4,9 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rive Delete Button</title>
-  <script src="https://unpkg.com/@rive-app/webgl"></script>
+
+  <!-- Rive WebGL player (version pinned so it doesn't break) -->
+  <script src="https://unpkg.com/@rive-app/webgl@2.7.0"></script>
+
   <style>
     body {
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +21,7 @@
 </head>
 <body>
   <rive-player
-    src="https://cdn.jsdelivr.net/gh/Archxt7/Delete/delete_interaction_v2.riv"
+    src="https://raw.githubusercontent.com/Archxt7/Delete/main/delete_interaction_v2.riv"
     style="width: 250px; height: 80px;"
     autoplay
   ></rive-player>
